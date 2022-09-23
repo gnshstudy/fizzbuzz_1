@@ -13,4 +13,11 @@ public class FizzBuzzTest {
 		assertEquals("1", result);
 	}
 
+	@Test
+	public void testFizz() {
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		String returnedNumber = fizzBuzz.play(6);
+		assertEquals("Fizz", returnedNumber);
+	}
+	
 }
