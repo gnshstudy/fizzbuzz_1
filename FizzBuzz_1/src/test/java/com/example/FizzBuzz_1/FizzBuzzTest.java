@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
-	
+
 	@Test
 	public void testNumber() {
 		FizzBuzz fizzBuzz = new FizzBuzz();
@@ -19,13 +19,14 @@ public class FizzBuzzTest {
 		String returnedNumber = fizzBuzz.play(6);
 		assertEquals("Fizz", returnedNumber);
 	}
+
 	@Test
 	public void testBuzz() throws Exception {
 		FizzBuzz fizzBuzz = new FizzBuzz();
 		String returnedNumber = fizzBuzz.play(5);
 		assertEquals("Buzz", returnedNumber);
 	}
-	
+
 	@Test
 	public void testFizzBuzz() throws Exception {
 		FizzBuzz fizzBuzz = new FizzBuzz();
